@@ -9,29 +9,34 @@
   </head>
 
   <body>
-	 <h1>Etch a Sketch</h1>
-     <div> 
-        <button id="blackButton"> Black </button>
+    <div class="body">
+      <h1>Etch a Sketch</h1>
+      <div> 
+          <button id="blackButton"> Black </button>
 
-        <button id="eraser"> Eraser </button>
-     </div>
-
-
-     <container> 
-        <!--generateGrid function operates here--> 
-    </container>
+          <button id="eraser"> Eraser </button>
+      </div>
 
 
-     <div> 
-        <button id="resetButton"> Reset </button>
+      <container> 
+          <!--generateGrid function operates here--> 
+      </container>
 
-        <div class="slidercontainer">
-            <input type="range" id="size" class="slider" min="1" max="70" value="16">
-            <label>Size</label>
-        </div>
 
-     </div>
+      <div> 
+          <button id="resetButton"> Reset </button>
 
+          <div class="slidercontainer">
+              <input type="range" id="size" class="slider" min="1" max="70" value="16">
+              <label>Size</label>
+          </div>
+      </div>
+    </div>
+
+    
+    <div class="footer">
+      <a href="https://github.com/gerteck">Ger Teck @ Github</a>
+    </div>
 
     <!--(under body after everything loads)-->
     <script src="./script.js"></script> 
